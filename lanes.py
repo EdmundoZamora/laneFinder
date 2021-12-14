@@ -72,7 +72,7 @@ def region_of_interest(image): # crops images to a polygon region_of_interest, v
 # cv2.imshow("result", combo_image)
 # cv2.waitKey(0)
 
-cap = cv2.VideoCapture("test2.mp4")
+cap = cv2.VideoCapture("fast.mp4")
 while(cap.isOpened()):
     _, frame = cap.read()
     #print(frame.shape)

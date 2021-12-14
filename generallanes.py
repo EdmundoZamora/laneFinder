@@ -286,7 +286,7 @@ def test_video(video_file):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    test_video("test2.mp4")
+    test_video("fast.mp4")
     #test_photo("test_image.jpg")
 
 
